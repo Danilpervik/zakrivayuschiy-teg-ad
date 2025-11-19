@@ -10,9 +10,9 @@
 
 */
 :root {
-  --contour-color: #000000; 
+  --contour-color: #000000;
   --fill-color: #FF0000;
-  --core-color: #FFFFFF; 
+  --core-color: #FFFFFF;
   --main-body-color: #FFFFFF;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .like-icon:hover .main-body {
-  fill: #000000; 
+  fill: #000000;
   transition: fill 0.3s 0.05s linear;
 }
 
