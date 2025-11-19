@@ -229,8 +229,9 @@
 .card__like-button .button__text {
   position: relative;
   z-index: 2;
-  color: #fff;
-  mix-blend-mode: difference;
+  color: #000000;
+  mix-blend-mode: normal;
+  transition: color 0.3s ease, mix-blend-mode 0.3s ease;
 }
 
 .button__text {
@@ -371,11 +372,6 @@
 .card:nth-child(5) .card__footer,
 .card:nth-child(8) .card__footer {
   transform: translateY(-15px);
-}
-
-.card__like-button .button__text {
-  color: #000000;
-  mix-blend-mode: normal;
 }
 
 .card__like-button:hover .button__text {
