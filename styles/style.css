@@ -374,11 +374,11 @@
 }
 
 .card__like-button .button__text {
-  color: #000000; 
-  mix-blend-mode: normal; 
+  color: #000000;
+  mix-blend-mode: normal;
 }
 
 .card__like-button:hover .button__text {
-  color: #FFFFFF; 
-  mix-blend-mode: difference; 
+  color: #FFFFFF;
+  mix-blend-mode: difference;
 }
