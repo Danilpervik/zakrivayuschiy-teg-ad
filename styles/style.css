@@ -367,6 +367,7 @@
     height: 32px;
   }
 }
+
 .card:nth-child(5) .card__footer,
 .card:nth-child(8) .card__footer {
   transform: translateY(-15px);
@@ -376,6 +377,7 @@
   color: #000000; 
   mix-blend-mode: normal; 
 }
+
 .card__like-button:hover .button__text {
   color: #FFFFFF; 
   mix-blend-mode: difference; 
