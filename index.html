@@ -291,6 +291,15 @@
           <span class="button__text">Сохранить на память</span>
         </button>
       </section>
+      <dialog id="dialog-id" class="dialog">
+        <div class="dialog__content">
+          <div class="dialog__firstLine">
+            <div class="dialog__floopy"></div>
+            <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
+          </div>
+          <button onclick="window['dialog-id'].close()" class="dialog__button">ОК</button>
+        </div>
+      </dialog>
     </main>
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
