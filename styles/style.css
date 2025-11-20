@@ -13,7 +13,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font);
   font-variation-settings: 'wght' var(--main-font-weight, 400);
   background: #ffffff;
   position: relative;
@@ -37,7 +37,7 @@
   margin: 100px auto 0 auto;
   display: flex;
   justify-content: center;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font);
   font-weight: var(--accent-font-weight);
   background: #FFFFFF;
   border: 2px solid #000000;
@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font);
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 15px;
@@ -162,7 +162,7 @@
   line-height: 1.4;
   flex-grow: 1;
   padding: 0 20px;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font);
   font-size: 18px;
 }
 
@@ -188,7 +188,7 @@
 }
 
 .card__like-button {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font);
   font-size: 14px;
   background: transparent;
   border: 2px solid transparent;
@@ -235,7 +235,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font);
   font-size: 14px;
   position: relative;
   z-index: 2;
@@ -290,7 +290,7 @@
   padding: 15px 20px;
   background: #FFFFFF;
   border: 2px solid transparent;
-  font-family: var(--accent-font), sans-serif;
+  font-family: var(--accent-font);
   font-size: 14px;
   cursor: pointer;
   transition: box-shadow 0.3s ease;
