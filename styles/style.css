@@ -378,3 +378,74 @@
   color: #FFFFFF;
   mix-blend-mode: difference;
 }
+
+.dialog:open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+.dialog::backdrop {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.dialog__content {
+  background: #fff;
+  padding: 30px 42px;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.dialog__firstLine {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.dialog__floopy {
+  width: 39px;
+  height: 39px;
+  background-image: url(../images/floopy.svg);
+  z-index: 2;
+}
+
+.dialog__title {
+  font-family: var(--accent-font);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dialog__button {
+  width: 100%;
+  padding: 12.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid #000;
+  background-color: #fff;
+}
